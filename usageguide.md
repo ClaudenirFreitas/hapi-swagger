@@ -39,7 +39,7 @@ method: 'POST',
         validate: {
             payload: Joi.object({
                 a: Joi.number(),
-                b: Joi.nunber()
+                b: Joi.number()
             })
         }
     }
